@@ -1,4 +1,4 @@
-import type { Tarea } from "@/lib/types";
+import type { Dia, Tarea } from "@/lib/types";
 
 export const TAREAS: Tarea[] = [
   {
@@ -33,5 +33,6 @@ export const TAREAS: Tarea[] = [
     xp: 50,
     opcional: false,
   },
-
+ 
 ];
+export const ORDEN_SEMANA: Dia[] = [1, 2, 3, 4, 5, 6, 0];
